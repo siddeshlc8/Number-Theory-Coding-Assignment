@@ -1,4 +1,11 @@
-% This function used to determine whether number i prime or not
+% ----------------------------------------------------------------------------------------------------------------
+% Function Name        - isPrime.
+% Arguments Required   - n ( An Integer ).
+% Purpose              - This function used to determine whether number (n) is prime or not
+% return valuse        - result(Integer with valuse 1 if nis prime or 0 if n is composite).
+% ----------------------------------------------------------------------------------------------------------------
+
+
 
 function result = isPrime(n)
     

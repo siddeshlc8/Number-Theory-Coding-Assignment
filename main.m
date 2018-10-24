@@ -1,5 +1,11 @@
-% This is the main.m file which is the starting file of the execution.
-% This file contains the function main().
+% ----------------------------------------------------------------------------------------------------------------
+% Function Name        - main().
+% Arguments Required   - None.
+% Purpose              - The main() function is the main function which starts the execution of the Matlab code.
+% return valuse        - None.
+% ----------------------------------------------------------------------------------------------------------------
+
+
 
 function main()
 

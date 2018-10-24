@@ -73,7 +73,6 @@ Since the question mention to use only odd primes, we have exclude the prime num
 
 * [Goldbach's conjecture From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture)
 
-
 ## **File Structure:**
 
 * main.m - This is the main file to execute the poject.
@@ -81,5 +80,11 @@ Since the question mention to use only odd primes, we have exclude the prime num
 * findPrimes.m - This file contains the function that priints the prime numbers whose sum will be equal to the passed number as the argument to the function.
 
 ## **Flow of Control:**
+
+* The execution of matlab code starts with the execution of main.m file.
+* When main.m file executed, it accepts the integer n.
+* After accepting integer n, the main() function in main.m calls the function findPrimes() in findPrimes.m file passing the argument n to find the primes.
+* The findPrimes() function after called by main() and recieving n finds the prime numbers whose sum is n using Goldbach's conjecture.
+* The findPrimes() function calls the isPrime() function in isprime.m file to check whether a number is prime or not.
 
 
